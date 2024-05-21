@@ -21,6 +21,7 @@ const Portfolio = () => {
         </div>
         <div className={styles.contentGrid}>
           <Card project={PortfolioData[0]} />
+          <Card project={PortfolioData[1]} />
         </div>
       </div>
     </section>

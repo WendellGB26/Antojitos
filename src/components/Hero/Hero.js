@@ -51,33 +51,6 @@ function Hero() {
             />
           </h2>
           <h3>Postres que enamoran, sabores que perduran.</h3>
-          <div className={styles.socialSkills}>
-            <div className={`col_1 ${isInViewport ? styles.slideIn : ''}`}>
-              <h5>CONTACTAME AQUI</h5>
-              <div className={styles.socialContainer}>
-                <a
-                  title="Facebook contact"
-                  href={constants.profilesUrls.facebook}
-                  className={styles.socialBtn}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="Facebook Profile"
-                >
-                  <i className="fa-brands fa-facebook-f" />
-                </a>
-                <a
-                  title="Instagram contact"
-                  href={constants.profilesUrls.instagram}
-                  className={styles.socialBtn}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="Intagram Profile"
-                >
-                  <i className="fa-brands fa-instagram" />
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
         <div>
           <img src={hero} alt="hero" />

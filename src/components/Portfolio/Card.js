@@ -41,8 +41,7 @@ const Card = ({ project }) => {
             />
           </div>
           <div>
-            <h2>{title}</h2>
-
+            <h2 style={{ paddingTop: '8px' }}>{title}</h2>
             <span className={styles.arrow}>
               <i className="fas fa-arrow-right" />
             </span>
