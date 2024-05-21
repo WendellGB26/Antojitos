@@ -27,7 +27,7 @@ const data = [
     image: 'PieMango.jpeg',
     desc: `Carlota de Mango con piso de galleta maria.`,
     links: {
-      page: 'https://wa.me/?phone=50686714741&text=Hola%20me%20gustaria%20hacer%20pedido%20de%Carlota%20de%20Mango',
+      page: 'https://wa.me/?phone=50686714741&text=Hola%20me%20gustaria%20hacer%20pedido%20de%20Carlota%20de%20Mango',
     },
   },
 ];
